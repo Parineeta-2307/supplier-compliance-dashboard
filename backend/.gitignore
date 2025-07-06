@@ -1,0 +1,64 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# Environment & secrets
+.env
+.env.*
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.swp
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+build/
+dist/
+
+# Pytest & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter notebook checkpoints (in case of usage)
+.ipynb_checkpoints/
+
+# Database & export files
+*.sqlite3
+*.db
+*.csv
+*.xls
+*.xlsx
+
+# Python language server & type checker cache
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Temporary/backup files
+*.bak
+*.tmp
+*.orig
+*.old
+
+# openpyxl or pandas-generated exports (safe rule)
+*.xlsx
+*.xls
+*.json
